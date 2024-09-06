@@ -3,122 +3,76 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Currículum - Santiago Pérez</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-            margin: 0;
-            padding: 0;
-        }
-        .container {
-            width: 100%;
-            max-width: 900px;
-            margin: auto;
-            background-color: #fff;
-            padding: 20px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        .header {
-            text-align: center;
-            padding: 20px 0;
-            background-color: #f7c242;
-            color: #333;
-        }
-        .header h1 {
-            margin: 0;
-            font-size: 36px;
-        }
-        .header h2 {
-            margin: 5px 0 0;
-            font-size: 18px;
-        }
-        .content {
-            display: flex;
-            justify-content: space-between;
-        }
-        .left, .right {
-            width: 48%;
-        }
-        .section {
-            margin-bottom: 20px;
-        }
-        .section h3 {
-            margin-bottom: 10px;
-            border-bottom: 2px solid #f7c242;
-            padding-bottom: 5px;
-            font-size: 24px;
-            color: #f7c242;
-        }
-        .section p {
-            margin: 5px 0;
-        }
-        .contact-info p {
-            margin: 5px 0;
-        }
-        .skills, .projects, .experience, .education {
-            list-style-type: none;
-            padding: 0;
-            margin: 0;
-        }
-        .skills li, .projects li, .experience li, .education li {
-            margin-bottom: 10px;
-        }
-    </style>
+    <title>Curriculum Vitae - Santiago Pérez</title>
+    <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
     <div class="container">
-        <div class="header">
-            <h1>Santiago Pérez</h1>
-            <h2>Desarrollador de Software</h2>
-        </div>
-        <div class="content">
-            <div class="left">
-                <div class="section contact-info">
-                    <h3>Contacto</h3>
-                    <p>Email: perezsantiagovdr@gmail.com</p>
-                    <p>Teléfono: 3573-431167</p>
-                    <p>Ubicación: Villa del Rosario, Córdoba, Argentina</p>
-                    <p>Redes Sociales: @santiperez_04</p>
-                </div>
-                <div class="section skills">
-                    <h3>Habilidades</h3>
-                    <ul>
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>JavaScript</li>
-                        <li>GitHub</li>
-                        <li>Excel</li>
-                    </ul>
-                </div>
-                <div class="section languages">
-                    <h3>Idiomas</h3>
-                    <p>Inglés Básico</p>
-                </div>
+        <div class="left-section">
+            <div class="photo">
+                <img src="IMG_20211122_120916381 (1).jpg" alt="Santiago Pérez">
             </div>
-            <div class="right">
-                <div class="section education">
-                    <h3>Educación</h3>
-                    <ul>
-                        <li><strong>Bachiller en Economía y Administración</strong><br>Egresado - IPEM “JMP” N°148 (2015 - 2021)</li>
-                        <li><strong>Técnico Superior en Desarrollo de Software</strong><br>Cursando - Instituto Superior Villa del Rosario (2022 - 2024)</li>
-                    </ul>
+            <div class="about">
+                <h2>Sobre mí</h2>
+                <div class="underline"></div>
+                <p>Soy Santiago Pérez, un Desarrollador Web FrontEnd en crecimiento, Estudiante de la carrera de Técnico Superior en Desarrollo de Software.</p>
+            </div>
+            <div class="contact">
+                <h2>Contacto</h2>
+                <div class="underline"></div>
+                <p><strong>Instagram:</strong> @santiperez_04</p>
+                <p><strong>Teléfono:</strong> 3573-431167</p>
+                <p><strong>Email:</strong> perezsantiagovdr@gmail.com</p>
+                <p><strong>Ubicación:</strong> Villa del Rosario, Córdoba - Argentina.</p>
+            </div>
+            <div class="skills">
+                <h2>Habilidades</h2>
+                <div class="underline"></div>
+                <ul>
+                    <li>Manejo de Visual Code</li>
+                    <li>Manejo de GitHub</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                </ul>
+            </div>
+            <div class="languages">
+                <h2>Idiomas</h2>
+                <div class="underline"></div>
+                <ul>
+                    <li>Inglés Básico</li>
+                    <li>Español</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="right-section">
+            <div class="header">
+                <div class="name-background">
+                    <h1>PÉREZ SANTIAGO</h1>
                 </div>
-                <div class="section experience">
-                    <h3>Experiencia</h3>
-                    <ul>
-                        <li><strong>Pasante - Good Apps</strong><br>2024 - 2024<br>Realicé unas pasantías de 2 meses en una empresa que desarrolla software.</li>
-                    </ul>
-                </div>
-                <div class="section projects">
-                    <h3>Proyectos</h3>
-                    <ul>
-                        <li><strong>ESLA:</strong> Aplicación web para lograr una bolsa de trabajo informal.</li>
-                        <li><strong>Lotify:</strong> Aplicación móvil para la gestión de lotes.</li>
-                    </ul>
-                </div>
+                <h3>Desarrollador de Software | Front-End</h3>
+            </div>
+            <div class="education">
+                <h2>Educación</h2>
+                <div class="underline"></div>
+                <p><strong>2015 - 2021</strong> Bachiller en Economía y Administración - IPEM N°148</p>
+                <p><strong>2022 - 2024</strong> Técnico Superior en Desarrollo de Software - Instituto Superior Villa del Rosario</p>
+            </div>
+            <div class="experience">
+                <h2>Experiencia</h2>
+                <div class="underline"></div>
+                <p><strong>2024 - 2024</strong> Pasante en Good Apps</p>
+                <p>Realicé una pasantía de 2 meses en una empresa dedicada al desarrollo de software.</p>
+            </div>
+            <div class="projects">
+                <h2>Proyectos</h2>
+                <div class="underline"></div>
+                <p><strong>ESLA</strong> - Aplicación web para lograr una bolsa de trabajo informal.</p>
+                <p><strong>Lotify</strong> - Aplicación móvil para la gestión de lotes.</p>
             </div>
         </div>
     </div>
 </body>
 </html>
+
